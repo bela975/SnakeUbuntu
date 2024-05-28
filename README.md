@@ -50,13 +50,15 @@ e juntar ao nosso programa, trocando a main desse repositório pela nossa main.
 --------------------------------------------------------------------------------------------
 
 ## Executando o jogo:
+1. Faça o download da pasta do jogo no github e extraia ela (Commit mais recente)
+   
+2.  Após baixar a pasta, dentro dela, clique com o botão direito em executar terminal como administrador.
+ 
+3. Com o terminal aberto, no Linux, certifique-se de que você está na pasta do projeto, caso necessário, use “cd” e o nome da pasta do jogo em seu computador. “cd SnakeUbuntu” por exemplo.
 
-1.  para isso, é necessário abrir o terminal, e dar o comando
-“ls” para visualizar todas as pastas do seu computador. 
-
-2. em seguida é preciso dar cd e o nome da pasta do jogo em  seu computador. “cd SnakeUbuntu” por exemplo.
-
-3. após entrar nela, com o gcc instalado claro, é só inserir o comando “gcc -o SnakeUbuntu main.c ” e logo após essa execução inserir o comando  “./Snakegame” .
+4. após entrar nela, no terminal, com o gcc instalado claro, é só inserir o comando “gcc main.c -o main” e logo após essa execução inserir o comando  “./main” .
 Pronto! O jogo já estará em execução.
+ 
+5. Nosso código já está com os arquivos necessários oriundos da CLI-Lib, então não precisa se preocupar com importar nada dela.
 
-Para que o código execute, preciso pegar a pasta do último commit.
+
