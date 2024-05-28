@@ -54,11 +54,9 @@ e juntar ao nosso programa, trocando a main desse repositório pela nossa main.
 1.  para isso, é necessário abrir o terminal, e dar o comando
 “ls” para visualizar todas as pastas do seu computador. 
 
-2. em seguida é preciso dar cd e o nome da pasta do jogo em  seu computador. “cd Snakegame” por exemplo.
+2. em seguida é preciso dar cd e o nome da pasta do jogo em  seu computador. “cd SnakeUbuntu” por exemplo.
 
-3. após entrar nela, com o gcc instalado claro, é só inserir o comando “gcc -o Snakegame main.c screen.c keyboard.c timer.c” e logo após essa execução inserir o comando  “./Snakegame” .
+3. após entrar nela, com o gcc instalado claro, é só inserir o comando “gcc -o SnakeUbuntu main.c ” e logo após essa execução inserir o comando  “./Snakegame” .
 Pronto! O jogo já estará em execução.
 
-Para que o código execute, preciso pegar a pasta do commit: https://github.com/bela975/SnakeGameC/commit/f73ae895dc821fa5855bc87a8428c8679c2375d8
-
-OBS: Infelizmente o jogo está com problemas, então para acessar as diferentes partes do nosso menu, é preciso inserir o numero correspondente e além disso, dar enter.
+Para que o código execute, preciso pegar a pasta do último commit.
