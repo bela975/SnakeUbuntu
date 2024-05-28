@@ -38,7 +38,7 @@ void atualiza() {
 	}
 }
 
-int analiza() {
+int analisa() {
 	int i, retorno = 0;
 	for (i = 1; i < pontos; i++) {
     	if (cx == c[i][0] && cy == c[i][1]) {
